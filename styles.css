@@ -1,0 +1,449 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@media (max-width: 1026px) {
+    * {
+        box-sizing: border-box;
+        padding: 0px;
+        margin: 0px;
+        font-family: 'Montserrat', 'sans-serif';
+    }
+
+    body {
+        background-image: url("assets/bg-top.svg"), url("assets/bg-bottom.svg");
+        background-color: hsl(240, 78%, 98%);
+        background-repeat: no-repeat, no-repeat;
+        background-size: 23%, 23%;
+        background-position:
+        top 0 right -1rem,
+        bottom -4.7rem left -1.9rem;
+    }
+
+    nav {
+        text-align: center;
+        width: 100%;
+        padding: 75px;
+    }
+
+    h1 {
+        color: hsl(232, 13%, 33%);
+        font-size: 30px;
+        padding: 30px;
+    }
+
+    .toggle-area {
+        background: linear-gradient(hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+        border: none;
+        position: relative;
+        display: inline-flex;
+        align-items: center;
+        cursor: pointer;
+        width: 3.8rem;
+        height: 2.3rem;
+        border-radius: 25px;
+    }
+
+    .toggle-items {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 15px;
+        font-weight: bold;
+        padding-bottom: 30px;
+    }
+
+    .toggle-btn {
+        cursor: pointer;
+        position: relative;
+        width: 1.7rem;
+        height: 1.7rem;
+        margin: 5%;
+        border-radius: 50%;
+        background-color: hsl(240, 78%, 98%);
+      }
+
+      .toggle-area.monthly {
+        justify-content: flex-end;
+        align-content: flex-end;
+      }
+      
+      .toggle-area.anually {
+        justify-content: flex-start;
+        align-content: flex-start;
+      }
+
+      .toggle-section p {
+        color: hsl(234, 14%, 74%);
+      }
+
+
+    #flex-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0px 10px 10px 0px;
+        padding: 0px 10px 20px;
+        width: 100%;
+    }
+
+    #basic-card {
+        background-color: #ffffff;
+        border-radius: 10px;
+        margin: 5px;
+        padding: 20px;
+        text-align: center;
+        width: 100%;
+        padding: 45px 44px;
+        margin-bottom: 87px;
+    }
+
+    #professional-card {
+        background: linear-gradient(hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+        border-radius: 10px;
+        margin: 5px;
+        padding: 20px;
+        text-align: center;
+        width: 100%;
+        padding: 45px 44px;
+        margin-bottom: 87px;
+    }
+
+
+    #master-card {
+        background-color: #ffffff;
+        border-radius: 10px;
+        margin: 5px;
+        padding: 20px;
+        text-align: center;
+        width: 100%;
+        padding: 45px 44px;
+        margin-bottom: 87px;
+    }
+
+    .pricing-header {
+        color: #b3b5c6;
+        font-size: 18.45px;
+        font-weight: bold;
+    }
+
+    .pricing-header1 {
+        color: #ffffff;
+        font-size: 18.45px;
+        font-weight: bold;
+    }
+    
+    .basic-master-price {
+        color: #494c5f;
+        font-size: 69px;
+        margin: 5px 0px;
+    }
+
+    .professional-price {
+        color: #ffffff;
+        font-size: 69px;
+        margin: 5px 0px;
+    }
+
+    span {
+        font-size: 37.5px;
+        padding: 0px 0px 0px 0px;
+    }
+    
+    hr {
+      width: 90%;
+      border-width: 0.5px;
+      margin: 0 auto;
+      border-color: transparent;
+      border-color: hsl(234, 14%, 74%);
+      border-style: solid;
+      opacity: 0.5;
+    }
+
+    .package-listings {
+        padding: 15.9px;
+        font-weight: bold;
+        color: #b3b5c6;
+    }
+
+    .package-listings1 {
+        padding: 15.9px;
+        font-weight: bold;
+        color: #ffffff;
+    }
+
+    .learn-more-button {
+        width: 90%;
+        padding: 12px 0px;
+        letter-spacing: 1.5px;
+    }
+
+    #basic-card button, #master-card button {
+        cursor: pointer;
+        color: #ffffff;
+        background: linear-gradient(hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+        font-weight: 600;
+        border-radius: 5px;
+        border-color: transparent;
+        border-style: solid;
+        border-width: 1px;
+        margin-top: 20px;
+    }
+
+    #basic-card button:hover, #master-card button:hover{
+        background: transparent;
+        border-color: hsl(234, 14%, 74%);
+        color: hsl(237, 63%, 64%);
+        border-width: 1px;
+        transition: ease-in-out 0.3s;
+        transition: color ease-in-out 0.3s;  
+    }
+
+    #professional-card button {
+        cursor: pointer;
+        color: hsl(237, 63%, 64%);
+        background-color: #ffffff;
+        font-weight: 600;
+        border-radius: 5px;
+        border-color: transparent;
+        border-style: solid;
+        border-width: 1px;
+        margin-top: 20px;
+    }
+
+    #professional-card button:hover {
+        background-color: transparent;
+        border-color: #ffffff;
+        color: #ffffff;
+        border-width: 1px;
+        transition: all ease-in-out 0.3s
+      }
+    
+}
+
+
+
+@media (min-width: 1027px) {
+    * {
+        box-sizing: border-box;
+        padding: 0px;
+        margin: 0px;
+        font-family: 'Montserrat', 'sans-serif';
+    }
+
+    body {
+        align-items: center;
+        background-image: url("assets/bg-top.svg"), url("assets/bg-bottom.svg");
+        background-color: hsl(240, 78%, 98%);
+        background-repeat: no-repeat, no-repeat;
+        background-size: 23%, 23%;
+        background-position:
+        top 0 right -1rem,
+        bottom -4.7rem left -1.9rem;
+    }
+
+    nav {
+        text-align: center;
+        width: 100%;
+        padding: 75px;
+    }
+
+    h1 {
+        color: hsl(232, 13%, 33%);
+        font-size: 30px;
+        padding: 30px;
+    }
+
+    .toggle-area {
+        background: linear-gradient(hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+        border: none;
+        position: relative;
+        display: inline-flex;
+        align-items: center;
+        cursor: pointer;
+        width: 3.8rem;
+        height: 2.3rem;
+        border-radius: 25px;
+    }
+
+    .toggle-items {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 15px;
+        font-weight: bold;
+        padding-bottom: 30px;
+    }
+
+    .toggle-btn {
+        cursor: pointer;
+        position: relative;
+        width: 1.7rem;
+        height: 1.7rem;
+        margin: 5%;
+        border-radius: 50%;
+        background-color: hsl(240, 78%, 98%);
+      }
+
+      .toggle-area.monthly {
+        justify-content: flex-end;
+        align-content: flex-end;
+      }
+      
+      .toggle-area.anually {
+        justify-content: flex-start;
+        align-content: flex-start;
+      }
+
+      .toggle-section p {
+        color: hsl(234, 14%, 74%);
+      }
+
+
+    #flex-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0px 10px 10px 0px;
+        padding: 0px 100px 0px 100px;
+        width: 100%;
+    }
+
+    #basic-card {
+        background-color: #ffffff;
+        border-radius: 10px;
+        margin: 5px;
+        padding: 20px;
+        text-align: center;
+        width: 100%;
+        height: 80%;
+        padding: 45px 44px;
+        margin-bottom: 87px;
+    }
+
+    #professional-card {
+        background: linear-gradient(hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+        border-radius: 10px;
+        margin: 5px;
+        padding: 20px;
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        padding: 45px 44px;
+        margin-bottom: 87px;
+    }
+
+
+    #master-card {
+        background-color: #ffffff;
+        border-radius: 10px;
+        margin: 5px;
+        padding: 20px;
+        text-align: center;
+        width: 100%;
+        height: 80%;
+        padding: 45px 44px;
+        margin-bottom: 87px;
+    }
+
+    .pricing-header {
+        color: #b3b5c6;
+        font-size: 18.45px;
+        font-weight: bold;
+    }
+
+    .pricing-header1 {
+        color: #ffffff;
+        font-size: 18.45px;
+        font-weight: bold;
+    }
+    
+    .basic-master-price {
+        color: #494c5f;
+        font-size: 69px;
+        margin: 5px 0px;
+    }
+
+    .professional-price {
+        color: #ffffff;
+        font-size: 69px;
+        margin: 5px 0px;
+    }
+
+    span {
+        font-size: 37.5px;
+        padding: 0px 0px 0px 0px;
+    }
+    
+    hr {
+      width: 90%;
+      border-width: 0.5px;
+      margin: 0 auto;
+      border-color: transparent;
+      border-color: hsl(234, 14%, 74%);
+      border-style: solid;
+      opacity: 0.5;
+    }
+
+    .package-listings {
+        padding: 15.9px;
+        font-weight: bold;
+        color: #b3b5c6;
+    }
+
+    .package-listings1 {
+        padding: 15.9px;
+        font-weight: bold;
+        color: #ffffff;
+    }
+
+    .learn-more-button {
+        width: 90%;
+        padding: 12px 0px;
+        letter-spacing: 1.5px;
+    }
+
+    #basic-card button, #master-card button {
+        cursor: pointer;
+        color: #ffffff;
+        background: linear-gradient(hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+        font-weight: 600;
+        border-radius: 5px;
+        border-color: transparent;
+        border-style: solid;
+        border-width: 1px;
+        margin-top: 20px;
+    }
+
+    #basic-card button:hover, #master-card button:hover{
+        background: transparent;
+        border-color: hsl(234, 14%, 74%);
+        color: hsl(237, 63%, 64%);
+        border-width: 1px;
+        transition: ease-in-out 0.3s;
+        transition: color ease-in-out 0.3s;  
+    }
+
+    #professional-card button {
+        cursor: pointer;
+        color: hsl(237, 63%, 64%);
+        background-color: #ffffff;
+        font-weight: 600;
+        border-radius: 5px;
+        border-color: transparent;
+        border-style: solid;
+        border-width: 1px;
+        margin-top: 20px;
+    }
+
+    #professional-card button:hover {
+        background-color: transparent;
+        border-color: #ffffff;
+        color: #ffffff;
+        border-width: 1px;
+        transition: all ease-in-out 0.3s
+      }
+    
+}
